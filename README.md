@@ -24,9 +24,9 @@ cd vuejs-bootstrap-base/
 npm install
 ```
 
-```
+``` bash
+# below command didn't work, so tried the above (copied the template manually and did init offline)
 vue init bootstrap-vue/webpack-simple vuejs-bootstrap-base
-# this command didn't work out, so tried the above (copied the template manually and did init offline)
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
