@@ -6,7 +6,7 @@
     </b-row>
     <b-row>
       <h3>With Fields Config</h3>
-      <b-table striped small hover :items="repos" :fields="userFields">
+      <b-table responsive striped small hover :items="repos" :fields="userFields">
         <template slot="full_name" slot-scope="data">
           <a :href="data.item.html_url" target="_blank">
             {{data.item.full_name}}

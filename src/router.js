@@ -1,7 +1,8 @@
 import VueRouter from 'vue-router'
 
-import Home from './pages/Home'
-import Table from './pages/Table'
+import Home from './pages/bootstrap/Home'
+import Table from './pages/bootstrap/Table'
+import SimpleForm from './pages/bootstrap/SimpleForm'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -17,6 +18,13 @@ const routes = [{
   path: '/table',
   components: {
     default: Table,
+    header: Header,
+    footer: Footer
+  }
+}, {
+  path: '/simple-form',
+  components: {
+    default: SimpleForm,
     header: Header,
     footer: Footer
   }

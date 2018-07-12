@@ -7,6 +7,7 @@
         <b-navbar-nav>
           <b-nav-item-dropdown text="Bootstrap">
             <b-dropdown-item to="/table">Table</b-dropdown-item>
+            <b-dropdown-item to="/simple-form">Simple Form</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
         <!-- Right aligned nav items -->
