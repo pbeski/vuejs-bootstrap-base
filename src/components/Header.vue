@@ -2,10 +2,12 @@
   <header>
     <b-navbar toggleable="md" type="dark" variant="dark">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar-brand href="#">VueJs Bootstrap</b-navbar-brand>
+      <b-navbar-brand to="/">VueJs Bootstrap</b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav>
-          <b-nav-item to="/table">Table</b-nav-item>
+          <b-nav-item-dropdown text="Bootstrap">
+            <b-dropdown-item to="/table">Table</b-dropdown-item>
+          </b-nav-item-dropdown>
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
