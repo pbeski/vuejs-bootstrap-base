@@ -1,35 +1,46 @@
 {
   "name": "vuejs-bootstrap-base",
-  "description": "VueJs with Bootstrap integrated to work with other examples",
-  "version": "1.0.0",
-  "author": "Prathap Beschi A A <pbeski@gmail.com>",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.18.0",
-    "bootstrap": "^4.0.0-beta.3",
-    "bootstrap-vue": "^2.0.0-rc.0",
-    "popper.js": "^1.12.9",
-    "vue": "^2.5.3",
-    "vue-router": "^3.0.1"
+    "core-js": "^2.6.9",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^6.0.0",
-    "babel-preset-env": "^1.6.1",
-    "cross-env": "^5.1.1",
-    "css-loader": "^0.28.7",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.5",
-    "node-sass": "^4.9.2",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.19.0",
-    "vue-loader": "^13.5.0",
-    "vue-template-compiler": "^2.5.3",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
-  }
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }

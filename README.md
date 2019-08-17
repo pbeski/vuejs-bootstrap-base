@@ -1,32 +1,29 @@
 # vuejs-bootstrap-base
 
-> VueJs with Bootstrap integrated to work with other examples
-
-## Build Setup
-
-``` bash
-# install dependencies
+## Project setup
+```
 npm install
+```
 
-# serve with hot reload at localhost:8080
-npm run dev
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# build for production with minification
+### Compiles and minifies for production
+```
 npm run build
 ```
 
-## How it was done
-
+### Run your tests
 ```
-git clone https://github.com/bootstrap-vue/webpack-simple ~/.vue-templates/bootstrap-vue-webpack-simple
-vue init bootstrap-vue/webpack-simple vuejs-bootstrap-base --offline
-cd vuejs-bootstrap-base/
-npm install
+npm run test
 ```
 
-``` bash
-# below command didn't work, so tried the above (copied the template manually and did init offline)
-vue init bootstrap-vue/webpack-simple vuejs-bootstrap-base
+### Lints and fixes files
+```
+npm run lint
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
