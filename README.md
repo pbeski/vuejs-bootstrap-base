@@ -1,24 +1,21 @@
 # vue-project
 
-## Project setup
-```
-npm install
+Created using npx create-nuxt-app <project-name>, with options Programming language: JavaScript, Package manager: Npm, UI framework: Bootstrap Vue, Nuxt.js modules: Axios - Promise based HTTP client, Linting tools: ESLint, Testing framework: Jest, Rendering mode: Single Page App, Deployment target: Server (Node.js hosting)
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
