@@ -1,6 +1,14 @@
 # vue-project
 
-Created using npx create-nuxt-app <project-name>, with options Programming language: JavaScript, Package manager: Npm, UI framework: Bootstrap Vue, Nuxt.js modules: Axios - Promise based HTTP client, Linting tools: ESLint, Testing framework: Jest, Rendering mode: Single Page App, Deployment target: Server (Node.js hosting)
+Created using npx create-nuxt-app <project-name>, with options 
+  - Programming language: JavaScript, 
+  - Package manager: Npm, 
+  - UI framework: Bootstrap Vue, 
+  - Nuxt.js modules: Axios - Promise based HTTP client, 
+  - Linting tools: ESLint, 
+  - Testing framework: Jest, 
+  - Rendering mode: Single Page App, 
+  - Deployment target: Server (Node.js hosting)
 ## Build Setup
 
 ```bash
