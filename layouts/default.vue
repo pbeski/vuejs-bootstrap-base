@@ -3,8 +3,19 @@
     <Nav />
     <Nuxt />
     <Footer />
+    <b-overlay :show="loading" no-wrap />
   </div>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      loading: false
+    }
+  }
+}
+</script>
+
 <style>
 body {
   min-height: 100vh;
