@@ -22,9 +22,9 @@
             <b-dropdown-item to="/alerts">
               Alerts
             </b-dropdown-item>
-            <!-- <b-dropdown-item to="/forms">
+            <b-dropdown-item to="/forms">
               Forms
-            </b-dropdown-item> -->
+            </b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="#" disabled>
             Disabled
