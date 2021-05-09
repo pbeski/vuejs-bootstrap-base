@@ -25,6 +25,9 @@
             <b-dropdown-item to="/forms">
               Forms
             </b-dropdown-item>
+            <b-dropdown-item to="/tables">
+              Tables
+            </b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="#" disabled>
             Disabled

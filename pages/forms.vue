@@ -1,13 +1,13 @@
 <template>
   <b-container class="bv-example-row">
     <b-row :class="rowClass">
-      <b-col :class="colClass" cols="6">
+      <b-col :class="colClass" col sm="6">
         <h1>Simple form</h1>
         <b-card class="mt-3" header="Form Data Result">
           <pre class="m-0">{{ form }}</pre>
         </b-card>
       </b-col>
-      <b-col :class="colClass" cols="6">
+      <b-col :class="colClass" col sm="6">
         <div class="m-2">
           <b-form v-if="show" @submit="onSubmit" @reset="onReset">
             <b-form-group
