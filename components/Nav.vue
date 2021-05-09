@@ -23,7 +23,7 @@
               Alerts
             </b-dropdown-item>
             <b-dropdown-item to="/forms">
-              Forms1
+              Forms
             </b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="#" disabled>

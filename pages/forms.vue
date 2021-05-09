@@ -61,6 +61,10 @@
               </b-form-checkbox-group>
             </b-form-group>
 
+            <b-form-group id="input-group-5" label="Choose a date:" label-for="input-5">
+              <b-form-datepicker id="input-5" v-model="form.startDate" class="mb-2" />
+            </b-form-group>
+
             <b-button type="submit" variant="primary">
               Submit
             </b-button>
@@ -79,11 +83,14 @@
 export default {
   data () {
     return {
+      rowClass: 'my-2',
+      colClass: '',
       form: {
         email: '',
         name: '',
         food: null,
-        checked: []
+        checked: [],
+        startDate: ''
       },
       foods: [{ text: 'Select One', value: null }, 'Carrots', 'Beans', 'Tomatoes', 'Corn'],
       show: true
@@ -101,6 +108,7 @@ export default {
       this.form.name = ''
       this.form.food = null
       this.form.checked = []
+      this.form.startDate = ''
       // Trick to reset/clear native browser form validation state
       this.show = false
       this.$nextTick(() => {
