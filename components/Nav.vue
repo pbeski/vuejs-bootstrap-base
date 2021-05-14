@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="dark">
-      <b-navbar-brand href="#">
+      <b-navbar-brand to="/">
         Vue with Bootstrap
       </b-navbar-brand>
 
@@ -27,6 +27,17 @@
             </b-dropdown-item>
             <b-dropdown-item to="/tables">
               Tables
+            </b-dropdown-item>
+          </b-nav-item-dropdown>
+          <b-nav-item-dropdown>
+            <!-- Using 'button-content' slot -->
+            <template #button-content>
+              <em>
+                Nuxt
+              </em>
+            </template>
+            <b-dropdown-item to="/routing">
+              File System Routing
             </b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item href="#" disabled>
